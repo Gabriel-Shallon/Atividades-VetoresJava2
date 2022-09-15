@@ -34,9 +34,15 @@ public class Questao004 {
              
         }}
 
-        JOptionPane.showMessageDialog(null, "Há "+pares+" números pares no vetor A.3");
+        if (pares>0){
 
+        JOptionPane.showMessageDialog(null, "Há "+pares+" números pares no vetor A.");
 
+        }else{
+
+            JOptionPane.showMessageDialog(null, "Não há números pares no vetor A.");
+
+        }
 
         UIManager.put("OptionPane.yesButtonText","Sim");
         UIManager.put("OptionPane.noButtonText","Não");
